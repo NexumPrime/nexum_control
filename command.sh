@@ -1,4 +1,4 @@
-echo "[AI-Setup] Installerer systemverktøy og lydmiljø..."
+echo "[AI-Setup] Starter installasjon av lydverktøy..."
 
 sudo nix-env -iA nixos.ffmpeg nixos.sox nixos.jack2 nixos.pipewire nixos.pulseaudio
 
